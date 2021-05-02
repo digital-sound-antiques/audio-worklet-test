@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./dist/index.js">
+    </script>
+  </head>
+  <style>
+    button#play:after {
+      content: 'PLAY';
+    }
+    .playing button#play:after {
+      content: 'STOP';
+    }
+  </style>
+  <body>
+    <input id="url" type="text" size="80" value="https://raw.githubusercontent.com/mmlbox/sor2413/main/fm_psg/mgs/en/soe004.mgs">
+    <button id="play"></button>
+  </body>
+</html>
